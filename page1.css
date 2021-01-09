@@ -39,7 +39,7 @@ body {
   font-size: 12px;
 }
 .signHere:hover {
-  transition: 2s;
+  transition: 0.5s;
   font-size: 13px;
   box-shadow: -2px 5px 30px black;
 }
