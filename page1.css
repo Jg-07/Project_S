@@ -1,0 +1,67 @@
+body {
+  background: url("back.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.jass {
+  font-size: 45px;
+  font-family: "Potta one";
+  border: yellow 4px dashed;
+  background: rgba(255, 223, 64, 0.8);
+  opacity: 0.9;
+  color: #9b1c31;
+  transition: 2s;
+}
+.jass:hover {
+  border: red 6px dashed;
+  color: white;
+  background: rgba(66, 66, 66, 0.4);
+}
+.colb {
+  background: orange;
+  border-radius: 3px;
+  border: orange solid 2px;
+  font-size: 20px;
+  width: 120px;
+  height: 40px;
+}
+.signHere {
+  display: sticky;
+  background-color: #effa78;
+  margin-top: 2%;
+  margin-left: 2%;
+  font-family: monospace;
+  display: grid;
+  border-radius: 10px;
+  border: dashed orange 5px;
+  transition: 2s;
+  font-family: "Potta One";
+  font-size: 12px;
+}
+.signHere:hover {
+  transition: 2s;
+  font-size: 13px;
+  box-shadow: -2px 5px 30px black;
+}
+.form1 {
+  margin-left: 20px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+#ralt {
+  margin-top: 80px;
+}
+#inp {
+  height: 20px;
+  width: 20em;
+}
+#lab {
+  margin-top: 20px;
+}
+#note {
+  color: #5c5c5b;
+}
+.buto {
+  margin-top: 10px;
+}
