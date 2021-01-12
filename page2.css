@@ -1,0 +1,47 @@
+body {
+  background: url("Desktop - 1.png");
+  font-family: "Roboto Mono";
+  background-size: cover;
+}
+.navig {
+  background-color: #f7c10c;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+}
+.navimg {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 30px 5px 30px;
+  border: grey 2px solid;
+  text-decoration: none;
+  background: #9b1c31;
+  color: yellow;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Sancreek";
+  border-radius: 10px;
+}
+.navimg:hover {
+  transition: 0.8s all ease 0s;
+  border: yellow 2px solid;
+  color: yellow;
+  background: black;
+}
+.navd {
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+.navd:hover {
+  transition: 0.8s all ease 0s;
+  color: yellow;
+  background-color: black;
+  border-radius: 10px;
+  fill: yellow;
+}
