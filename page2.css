@@ -7,7 +7,7 @@ body {
   background-color: #f7c10c;
   border-radius: 15px;
   display: flex;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bolder;
   color: black;
   justify-content: space-between;
@@ -32,6 +32,10 @@ body {
 }
 .nid {
   padding-bottom: 10px;
+  color: black;
+}
+a {
+  color: black;
 }
 .Chair1 {
   position: absolute;
@@ -45,7 +49,41 @@ body {
   position: absolute;
   width: 285.77px;
   height: 275.87px;
+  mix-blend-mode: normal;
   transition: all 0.5s ease 0s;
+}
+.Chair2 {
+  position: absolute;
+  width: 210.21px;
+  height: 199.69px;
+  left: 264.23px;
+  top: 437px;
+  mix-blend-mode: luminosity;
+}
+.Chair2:hover {
+  width: 225.21px;
+  height: 210.69px;
+  mix-blend-mode: normal;
+  transition: all 0.5s ease 0s;
+}
+.logo {
+  position: absolute;
+  border: 10px yellow solid;
+  height: 140px;
+  width: 100px;
+  background: black;
+  border-radius: 38px;
+  padding: 0px 20px 0px 20px;
+  left: 817.38px;
+  top: 146.67px;
+  font-family: Sancreek;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 107px;
+  line-height: 148px;
+  text-align: center;
+  color: #fff500;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .navimg {
   margin-left: 10px;
@@ -73,4 +111,93 @@ body {
   background-color: black;
   border-radius: 10px;
   fill: yellow;
+}
+.Per1 {
+  background-color: rgba(196, 196, 196, 1);
+  position: absolute;
+  width: 414.05px;
+  height: 230px;
+  left: 50px;
+  top: 1224px;
+  border-radius: 39px;
+}
+.Per2 {
+  position: absolute;
+  width: 414.05px;
+  height: 400.29px;
+  left: 49.96px;
+  top: 1490px;
+  border-radius: 39px;
+  background-color: #624ce7;
+}
+.Per3 {
+  position: absolute;
+  width: 331px;
+  height: 339px;
+  left: 500px;
+  top: 1224px;
+  background: #ece655;
+  border-radius: 66px;
+}
+.Per4 {
+  position: absolute;
+  width: 323px;
+  height: 364px;
+  left: 850px;
+  top: 1530px;
+  background: #d16ec7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 71px;
+}
+.font1 {
+  position: absolute;
+  width: 295px;
+  height: 77px;
+  left: 50px;
+  top: 107px;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 26px;
+  color: #3b323c;
+}
+.font2 {
+  position: absolute;
+  width: 290px;
+  height: 225px;
+  left: 81.15px;
+  top: 117.01px;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 26px;
+  color: #f88dfa;
+}
+.font3 {
+  position: absolute;
+  width: 289px;
+  height: 203px;
+  left: 34px;
+  top: 89px;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  color: #f82d00;
+}
+.font4 {
+  position: absolute;
+  width: 273px;
+  height: 224px;
+  left: 32px;
+  top: 109px;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 26px;
+  color: #4e1158;
 }
