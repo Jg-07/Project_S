@@ -9,7 +9,6 @@ body {
   display: flex;
   font-size: 16px;
   font-weight: bolder;
-  color: black;
   justify-content: space-between;
   align-items: center;
   text-align: right;
@@ -32,9 +31,6 @@ body {
 }
 .nid {
   padding-bottom: 10px;
-  color: black;
-}
-a {
   color: black;
 }
 .Chair1 {
@@ -104,7 +100,7 @@ a {
   margin-right: 30px;
   padding: 10px 10px 10px 10px;
   border-radius: 10px;
-  color:Black;
+  color: Black;
 }
 .navd:hover {
   transition: 0.8s all ease 0s;
