@@ -83,6 +83,12 @@ a {
   color: #fff500;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.logo:hover {
+  transition: all 0.7s ease 0s;
+  background-color: yellow;
+  border: 11px #f7c10c solid;
+  color: black;
+}
 .navimg {
   margin-left: 10px;
   margin-top: 10px;
@@ -147,6 +153,19 @@ a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 71px;
 }
+.Font {
+  position: absolute;
+  background-color: black;
+  color: yellow;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  border: 5px yellow solid;
+  top: 1000px;
+  left: 50px;
+  font-family: "Short Stack";
+  font-weight: 600;
+  font-size: 40px;
+}
 .font1 {
   position: absolute;
   width: 295px;
@@ -164,7 +183,7 @@ a {
   position: absolute;
   width: 290px;
   height: 225px;
-  left: 81.15px;
+  left: 60.15px;
   top: 117.01px;
   font-family: Righteous;
   font-style: normal;
@@ -197,5 +216,45 @@ a {
   font-weight: normal;
   font-size: 21px;
   line-height: 26px;
+  color: #4e1158;
+}
+.Per1 img {
+  position: absolute;
+  width: 28px;
+  height: 34.44px;
+  left: 40px;
+  top: 26px;
+}
+.Per2 img {
+  position: absolute;
+  width: 37px;
+  height: 39.63px;
+  left: 53.91px;
+  top: 35.26px;
+}
+.Per3 img {
+  position: absolute;
+  width: 34px;
+  height: 36.18px;
+  left: 42px;
+  top: 30px;
+}
+.Per4 img {
+  position: absolute;
+  width: 35px;
+  height: 40.28px;
+  left: 32px;
+  top: 39px;
+}
+.Per1 span {
+  color: #3b323c;
+}
+.Per2 span {
+  color: rgba(248, 141, 250, 1);
+}
+.Per3 span {
+  color: #e37a58;
+}
+.Per4 span {
   color: #4e1158;
 }
