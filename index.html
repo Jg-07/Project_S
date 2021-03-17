@@ -2,85 +2,68 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title>JaiPro</title>
-    <link rel="stylesheet" href="page1.css" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap"
-      rel="stylesheet"
-    />
+
+    <link rel="stylesheet" href="page1.css" />
+    <title>JaiPro</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row" id="ralt">
-        <div class="col-lg-7" id="jass1">
-          <span class="jass">Jass Furnitures</span>
+    <div class="form2">
+      <form action="page2.html" method="get" id="form1">
+        <span class="sign">Sign in</span>
+        <div class="form-group">
+          <label for="" id="lab">ENTER YOUR NAME : </label>
+          <input
+            type="text"
+            class="form-control"
+            id="inp"
+            placeholder="Name here!"
+            name="Name"
+          />
+          <small id="note"
+            >We make sure that your private data will not be sold
+          </small>
         </div>
-        <div class="col-md-3 col-lg-5">
-          <div class="signHere">
-            <form action="page2.html" method="get" class="form1">
-              <div class="form-group">
-                <label for="" id="lab">ENTER YOUR NAME : </label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="inp"
-                  placeholder="Name here!"
-                  name="Name"
-                />
-                <small id="note"
-                  >We make sure that your private data will not be sold
-                </small>
-              </div>
-              <div class="form-group">
-                <label for="" id="lab">ENTER YOUR DOB : </label>
-                <input
-                  type="date"
-                  class="form-control"
-                  id="inp"
-                  placeholder="DOB here!"
-                  name="date"
-                />
-                <small id="note"
-                  >We make sure that your private data will not be sold
-                </small>
-              </div>
-              <div class="form-group">
-                <label for="" id="lab">ENTER YOUR EMAIL ID : </label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="inp"
-                  placeholder="Email here!"
-                  name="Name"
-                />
-              </div>
-              <div class="form-group">
-                <label for="" id="lab">ENTER PASSWORD : </label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="inp"
-                  name="Name"
-                />
-                <small id="note"
-                  >The password must have aleast two numbers,alphabet & special
-                  charactor
-                </small>
-              </div>
-              <div class="buto">
-                <input type="submit" name="dta" class="colb" />
-              </div>
-            </form>
-          </div>
+        <div class="form-group">
+          <label for="" id="lab">ENTER YOUR DOB : </label>
+          <input
+            type="date"
+            class="form-control"
+            id="inp"
+            placeholder="DOB here!"
+            name="date"
+          />
+          <small id="note"
+            >We make sure that your private data will not be sold
+          </small>
         </div>
-      </div>
+        <div class="form-group">
+          <label for="" id="lab">ENTER YOUR EMAIL ID : </label>
+          <input
+            type="email"
+            class="form-control"
+            id="inp"
+            placeholder="Email here!"
+            name="Name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="" id="lab">ENTER PASSWORD : </label>
+          <input type="password" class="form-control" id="inp" name="Name" />
+          <small id="note"
+            >The password must have aleast two numbers,alphabet & special
+            charactor
+          </small>
+        </div>
+        <div class="buto">
+          <input type="submit" name="dta" class="colb" />
+        </div>
+      </form>
     </div>
     <script src="page2.js"></script>
   </body>

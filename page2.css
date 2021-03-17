@@ -9,7 +9,7 @@ body {
   display: flex;
   font-size: 16px;
   font-weight: bolder;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   text-align: right;
 }
